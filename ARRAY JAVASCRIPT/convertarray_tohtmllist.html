@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Hello whatsapp guys</h1>
+     <ul class="mylist"></ul>
+     
+     <script>
+        let arrayy=["ram","shyam","bam","kam"];
+        for(let i=0;i<arrayy.length;i++){
+            let list= document.querySelector(".mylist");
+            let li= document.createElement("li");
+            li.innerHTML= arrayy[i];
+            list.appendChild(li); //here we have added list to ul extracted from an array
+        }
+     </script>
+</body>
+</html>
